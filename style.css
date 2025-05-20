@@ -60,28 +60,37 @@ body {
     height: 190px;
     width:295px;
     border-radius: 10px;
-    background-color: #CAC2BD;
 
     background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
-    background-size: 100% 100%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #CAC2BD;
 }
 .mrContent{
     height: 190px;
     width: 295px;
     border-radius: 10px;
-    background-color: #CAC2BD;
 
-    background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
-    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #CAC2BD;
 }
 .brContent{
     height: 190px;
     width: 295px;
     border-radius: 10px;
-    background-color: #CAC2BD;
 
-    background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
-    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #CAC2BD;
 }
 /*---------------------------------------------------------*/
 
@@ -93,4 +102,25 @@ body {
     border-radius: 10px;
 
     text-align: center;
+}
+.trContent-Content {
+    height: 170px;
+    width: 275px;
+    border: 2px dashed #95BFBB;
+    border-radius: 10px;
+}
+.mrContent-Content {
+    height: 170px;
+    width: 275px;
+    border: 2px dashed #95BFBB;
+    border-radius: 10px;
+}
+.brContent-Content {
+    height: 170px;
+    width: 275px;
+    border: 2px dashed #95BFBB;
+    border-radius: 10px;
+}
+.brContent-Content > img {
+    height: 15%;
 }
