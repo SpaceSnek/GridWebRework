@@ -6,7 +6,7 @@ body {
     background-color: #497D74;
     background-image: url("Assets/feesh64xbg.png");
     font-family: 'Comic Neue';
-    zoom: 150%;
+    /*zoom: 150%;*/
 }
 /*---------------------------------------------------------*/
 
@@ -95,7 +95,7 @@ body {
 .footer {
     height: 90px;
     width: 820px;
-    border-radius: 10px;
+    border-radius: 11px;
 
     display: flex;
     justify-content: center;
@@ -154,19 +154,30 @@ a:hover, a:active {
     border-radius: 10px;
 }
 .footer-Content{
-    height: 70px;
-    width: 800px;
-    border: 2px dashed #71BBB2;
+    height: 90px;
+    width: 820px;
     border-radius: 10px;
-    background-color: #EFE9D5;
+    background-image: url("Assets/tackleBox.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     
+}
+.footer-Content:active {
+  animation-name: example;
+  background-position-y: -100px;
 }
 
 .footer-Content > img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+/*---------------------------------------------------------*/
 
+/*Scroll bar test*/
 
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #996244 #935732;
+  }
 
 /*Color palette: https://colorhunt.co/palette/27445d497d7471bbb2efe9d5 */
