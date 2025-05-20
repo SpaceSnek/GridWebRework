@@ -115,6 +115,10 @@ body {
     border: 2px dashed #95BFBB;
     border-radius: 10px;
 }
+.mrContent-Content > button {
+    display: block;
+    margin: 5px auto;
+}
 .brContent-Content {
     height: 170px;
     width: 275px;
