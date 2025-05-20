@@ -3,7 +3,8 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    background-color: #95BFBB;
+    background-color: #497D74;
+    background-image: url("Assets/feesh64xbg.png");
     font-family: 'Comic Neue';
 }
 /*---------------------------------------------------------*/
@@ -28,7 +29,7 @@ body {
     padding-top: 5%;
 }
 .item{
-    background-color: #60A69F;
+    background-color: #27445D;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -59,33 +60,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: #CAC2BD;
+    background-color: #EFE9D5;
 }
 .trContent{
     height: 190px;
     width:295px;
     border-radius: 10px;
-
-    background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: #CAC2BD;
+    background-color: #EFE9D5;
 }
 .mrContent{
     height: 190px;
     width: 295px;
     border-radius: 10px;
-
+    
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: #CAC2BD;
+    background-color: #EFE9D5;
 }
 .brContent{
     height: 190px;
@@ -95,13 +89,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: #CAC2BD;
+    background-color: #EFE9D5;
 }
 .footer {
     height: 90px;
     width: 820px;
     border-radius: 10px;
-    background-color: #CAC2BD;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #EFE9D5;
 }
 /*---------------------------------------------------------*/
 
@@ -109,7 +107,7 @@ body {
 .leftContent-Content {
     height: 590px;
     width: 485px;
-    border: 2px dashed #95BFBB;
+    border: 2px dashed #71BBB2;
     border-radius: 10px;
 
     text-align: center;
@@ -117,36 +115,57 @@ body {
 .trContent-Content {
     height: 170px;
     width: 275px;
-    border: 2px dashed #95BFBB;
+    border: 2px dashed #71BBB2;
     border-radius: 10px;
 }
 .mrContent-Content {
     height: 170px;
     width: 275px;
-    border: 2px dashed #95BFBB;
+    border: 2px dashed #71BBB2;
     border-radius: 10px;
+
+    background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
-.mrContent-Content > a:hover, a:active {
-    display: block;
-    margin: 5px auto;
-    border-radius: 10px;
-    background-color: #6dbdb5;
-    text-decoration: none;
-}
-.mrContent-Content > a:link, a:visited {
+a:link, a:visited {
     display: block;
     width:100px;
     margin: 5px auto;
     border-radius: 10px;
-    background-color: #60A69F;
+    color: #EFE9D5;
+    background-color: #497D74;
+    text-decoration: none;
+}
+a:hover, a:active {
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color: #71BBB2;
     text-decoration: none;
 }
 .brContent-Content {
     height: 170px;
     width: 275px;
-    border: 2px dashed #95BFBB;
+    border: 2px dashed #71BBB2;
     border-radius: 10px;
 }
-.brContent-Content > img {
-    height: 15%;
+.footer-Content{
+    height: 70px;
+    width: 800px;
+    border: 2px dashed #71BBB2;
+    border-radius: 10px;
+    background-color: #EFE9D5;
+    
 }
+
+.footer-Content > img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/*Color palette: https://colorhunt.co/palette/27445d497d7471bbb2efe9d5 */
