@@ -1,11 +1,18 @@
-.body {
-    align-content: center;
+/*Establish Body details*/
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #95BFBB;
+    font-family: 'Comic Neue';
 }
+/*---------------------------------------------------------*/
+
+/*Grid establishment*/
 .container{
     display: inline-grid;
-
-    grid-template-columns: repeat(autofit, 100px);
-    grid-template-rows: repeat(autofit, 100px);
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(6, 100px);
     grid-auto-rows: 100px;
     grid-auto-columns: 100px;
     grid-gap: 5px;
@@ -18,11 +25,12 @@
         'main main main main main item4 item4 item4';
     text-align: center;
 }
-
 .item{
-    background-color: lavender;
-    border: 2px solid black;
+    background-color: #60A69F;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .item1 {
     grid-area: 1/1/7/6;
@@ -35,5 +43,54 @@
 }
 .item4 {
     grid-area: 5/6/7/9;
+}
+/*---------------------------------------------------------*/
 
+/*Establish Content Divs*/
+.leftContent{
+    height: 610px;
+    width: 505px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #CAC2BD;
+}
+.trContent{
+    height: 190px;
+    width:295px;
+    border-radius: 10px;
+    background-color: #CAC2BD;
+
+    background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
+    background-size: 100% 100%;
+}
+.mrContent{
+    height: 190px;
+    width: 295px;
+    border-radius: 10px;
+    background-color: #CAC2BD;
+
+    background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
+    background-size: 100% 100%;
+}
+.brContent{
+    height: 190px;
+    width: 295px;
+    border-radius: 10px;
+    background-color: #CAC2BD;
+
+    background-image: url("https://img1.picmix.com/output/stamp/normal/6/2/9/7/1807926_d2975.gif");
+    background-size: 100% 100%;
+}
+/*---------------------------------------------------------*/
+
+/*Establish ACTUAL content*/
+.leftContent-Content {
+    height: 590px;
+    width: 485px;
+    border: 2px dashed #95BFBB;
+    border-radius: 10px;
+
+    text-align: center;
 }
