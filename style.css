@@ -6,6 +6,7 @@ body {
     background-color: #497D74;
     background-image: url("Assets/feesh64xbg.png");
     font-family: 'Comic Neue';
+    zoom: 150%;
 }
 /*---------------------------------------------------------*/
 
@@ -26,7 +27,7 @@ body {
         'main main main main main item4 item4 item4'
         'footer footer footer footer footer footer footer footer';
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 .item{
     background-color: #27445D;
