@@ -110,6 +110,7 @@ body {
     width: 485px;
     border: 2px dashed #71BBB2;
     border-radius: 10px;
+    overflow:scroll;
 
     text-align: center;
 }
@@ -144,7 +145,7 @@ a:hover, a:active {
     display: block;
     margin: 5px auto;
     border-radius: 10px;
-    background-color: #ff9248;
+    background-color: #ff9a00;
     text-decoration: none;
 }
 .brContent-Content {
