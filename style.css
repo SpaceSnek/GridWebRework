@@ -110,6 +110,7 @@ body {
     width: 485px;
     border: 2px dashed #71BBB2;
     border-radius: 10px;
+    overflow:scroll;
 
     text-align: center;
 }
@@ -137,14 +138,14 @@ a:link, a:visited {
     margin: 5px auto;
     border-radius: 10px;
     color: #EFE9D5;
-    background-color: #497D74;
+    background-color: #ff6700;
     text-decoration: none;
 }
 a:hover, a:active {
     display: block;
     margin: 5px auto;
     border-radius: 10px;
-    background-color: #71BBB2;
+    background-color: #ff9a00;
     text-decoration: none;
 }
 .brContent-Content {
