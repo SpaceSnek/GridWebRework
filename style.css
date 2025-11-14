@@ -165,7 +165,9 @@ a:hover, a:active {
 }
 .footer-Content:active {
   animation-name: example;
-  background-position-y: -100px;
+  background-image: url("https://wiki.fishingplanet.com/images/c/c0/Longnose_Gar.png");
+  background-size: contain;
+  background-position: center;
 }
 
 .footer-Content > img {
@@ -173,6 +175,12 @@ a:hover, a:active {
     padding-bottom: 20px;
 }
 /*---------------------------------------------------------*/
+
+/*Paragraph styling*/
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /*Scroll bar test*/
 
