@@ -119,6 +119,7 @@ body {
     width: 275px;
     border: 2px dashed #71BBB2;
     border-radius: 10px;
+    align-content: center;
 }
 .mrContent-Content {
     height: 170px;
